@@ -1,0 +1,2 @@
+Database ---> config --> config.js -> dev -> password = "root"
+
