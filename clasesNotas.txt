@@ -1,2 +1,15 @@
-Database ---> config --> config.js -> dev -> password = "root"
+scr -> Database ---> config --> config.js -> dev -> password = "root"
 
+public -> js -> moviesAddValidation.js
+
+src -> views -> moviesAdd.ejs -> antes del cierre del body coloca el script
+<script src = "/public/js/moviesAddValidation.js></script>
+
+El primer enfoque es capturar el formulario
+
+moviesAddValidation -> 
+for (let i = 0; i < elementsForm.length; i++){
+    console.log(elementsForm[i].value)
+}
+
+npm run db:create

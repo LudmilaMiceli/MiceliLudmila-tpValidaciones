@@ -97,11 +97,11 @@ input, select{
   height: 25px;
 }
 .is-valid {
-  color: #198754;
+  border-color: aquamarine;
 }
 
 .is-invalid {
-  color: #842029;
+  border-color: #BB2D3B;
 }
 
 .alert-warning{
@@ -109,4 +109,12 @@ input, select{
   background-color: #F8D7DA;
   text-align: center;
   border-radius: 10px;
+  margin: 5px auto;
+  width: 80%;
+}
+
+.alert-info {
+  color : whitesmoke;
+  background-color: lightblue;
+  text-align: center;
 }
